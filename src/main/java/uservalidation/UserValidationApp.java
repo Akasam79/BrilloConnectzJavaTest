@@ -33,9 +33,9 @@ public class UserValidationApp {
 
             // Verify the generated token
             if (JwtUtil.verifyJWT(token)) {
-                System.out.println("Verification passed.");
+                System.out.println("Verification pass");
             } else {
-                System.out.println("Verification failed.");
+                System.out.println("Verification fails");
             }
         } else {
             System.out.println("Validation failed for the following fields:");
